@@ -1,0 +1,22 @@
+/* Tabela 1 – Listagem dos tipos de dados.
+Tipo	Grupo	    Origem	    Tamanho	       Exemplo de uso
+byte	Inteiro	    primitivo	8 bits	       byte b = 127;
+short	Inteiro	    primitivo	16 bits	       short s = 10;
+int	    Inteiro	    primitivo	32 bits	       int i = 8907;
+long	Inteiro	    primitivo	64 bits	       long l = 34567L;
+float	Flutuante	primitivo	32 bits	       float f = 34.0F;
+double	Flutuante	primitivo	64 bits	       double d = 34.0;
+char	Caractere	primitivo	16 bits	       char c = 'a';
+String	Texto	    objeto	    Não se aplica  String texto = "abc";
+boolean	Lógico	    primitivo	depende da JVM boolean b = false;
+[ ]	    Array	    objeto	    Não se aplica  int [ ]nums = new int [5];
+*/
+
+/*Tabela 2 – Exemplos de entrada de dados para os tipos principais.
+Tipo	Exemplo
+int	int numInt = new Scanner(System.in).nextInt();
+double	double numFl = new Scanner(System.in).nextDouble();
+char	char varChar = new Scanner(System.in).next().charAt(0);
+String	String varStr = new Scanner(System.in).nextLine();
+boolean	boolean varBoo = new Scanner(System.in).nextBoolean();
+ */
