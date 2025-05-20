@@ -2,6 +2,7 @@
 import java.util.Scanner;
 
 public class Leitura {
+    @SuppressWarnings("resource")
     public static void main(String []args) {
         double salario;
         System.out.println("Informe um salário: ");

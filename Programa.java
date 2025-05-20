@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Programa {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         System.out.println("Digite um número: ");
         int numero = new Scanner(System.in).nextInt();

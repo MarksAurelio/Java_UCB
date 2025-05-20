@@ -1,25 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
+// Source code is decompiled from a .class file using FernFlower decompiler.
 import java.util.Scanner;
 
-/**
- *
- * @author marksaurelio
- */
 public class ExemploArray {
-    public static void main(String[] args) {
-        int [] numeros = new int[5]; //inicialização
-        // populando o array
-        for (int i = 0; i < numeros.length; i++){
-            System.out.println("Informe o "+(i+1)+"º número: ");
-            numeros[i] = new Scanner(System.in).nextInt();
-        } 
-        // apresentado o array
-        for (int i = 0; i < numeros.length; i++){
-            System.out.println(numeros[i]);
-        }
-    }
+   public ExemploArray() {
+   }
+
+   @SuppressWarnings("resource")
+   public static void main(String[] var0) {
+      int[] var1 = new int[5];
+
+      int var2;
+      for(var2 = 0; var2 < var1.length; ++var2) {
+         System.out.println("Informe o " + (var2 + 1) + "º número: ");
+         var1[var2] = (new Scanner(System.in)).nextInt();
+      }
+
+      for(var2 = 0; var2 < var1.length; ++var2) {
+         System.out.println(var1[var2]);
+      }
+
+   }
 }
