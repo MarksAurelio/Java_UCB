@@ -1,3 +1,4 @@
+package programa_soma;
 import java.util.Scanner;
 
 public class Programa {

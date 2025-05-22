@@ -1,3 +1,4 @@
+package programa_fahrenheit_celsius;
 import java.util.Scanner;
 
 public class ProgramaFahrenheitparaCelsius{

@@ -1,3 +1,4 @@
+package notas_media;
 
 import java.util.Scanner;
 
