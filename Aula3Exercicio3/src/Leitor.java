@@ -3,6 +3,15 @@ import java.util.Scanner;
 public class Leitor {
     private static final Scanner scanner = new Scanner(System.in);
 
+    public static String lerString(String msg) {
+        System.out.println(msg);
+        return scanner.nextLine();
+    }
+
+    public static String lerString() {
+        return scanner.nextLine();
+    }
+
     public static int lerInt(String msg) {
         System.out.println(msg);
         return scanner.nextInt();
