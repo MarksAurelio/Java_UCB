@@ -4,8 +4,6 @@ Encontre o maior valor.
 Encontre o menor valor.
 Calcule a média dos números lidos.
 Faça as apresentações para o usuário de forma organizada. */
-package aula_2_exercicio_5;
-
 import java.util.Scanner;
 
 public class NumerosInteirosPositivos {

@@ -1,6 +1,4 @@
 /* Faça um programa Java que receba duas notas de um estudante em valores double. Na sequência, apresente todos os valores informados, a média, e se ele está aprovado ou reprovado. Detalhe: você não deve permitir que os valores informados como notas sejam inferiores a 0 ou superiores a 10. Para validação, use do/while.*/
-package aula_2_exercicio_6;
-
 import java.util.Scanner;
 
 public class MediaNota {

@@ -1,6 +1,4 @@
 /* Implemente um programa em Java que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês. Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, o programa deve mostrar como resultado o seu nome e o seu salário no final do mês */
-package aula_2_exercicio_3;
-
 import java.util.Scanner;
 
 public class VendedorSalario {

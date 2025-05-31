@@ -1,5 +1,3 @@
-package sobrecarga;
-
 public class Expoente {
     // Método que não calcula nada
     public static void quadrado() {

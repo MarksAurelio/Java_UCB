@@ -1,5 +1,3 @@
-package constante;
-
 import java.util.Scanner;
 
 public class Constante {

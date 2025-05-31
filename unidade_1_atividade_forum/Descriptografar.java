@@ -1,5 +1,3 @@
-package unidade_1_atividade_forum;
-
 import java.util.Scanner;
 
 public class Descriptografar {

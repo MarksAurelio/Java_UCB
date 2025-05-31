@@ -1,5 +1,3 @@
-package operadores;
-
 public class Operadores {
     int num_instancia;
     static int num_estatica;

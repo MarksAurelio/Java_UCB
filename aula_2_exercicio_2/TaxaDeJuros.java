@@ -1,6 +1,4 @@
 /* Implemente um programa em Java que calcule o juro de uma dívida que você contraiu no mês passado no crediário de uma loja. A taxa de juros mensal e o valor da dívida serão fornecidos pelo usuário. */
-package aula_2_exercicio_2;
-
 import java.util.Scanner;
 
 public class TaxaDeJuros {

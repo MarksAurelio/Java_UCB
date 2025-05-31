@@ -1,5 +1,4 @@
 /* O programa Java apresentado a seguir codifica uma mensagem de texto, sem informar qual foi a chave para o processo de criptografia: */
-package unidade_1_atividade_forum;
 import java.util.Scanner;
 
 public class Criptografar {

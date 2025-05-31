@@ -1,5 +1,3 @@
-package exercicio_media_nota;
-
 import java.util.Scanner;
 
 @SuppressWarnings("all")

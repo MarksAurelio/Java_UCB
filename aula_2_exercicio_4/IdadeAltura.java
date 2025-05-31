@@ -1,6 +1,4 @@
 /* Escreva um programa em Java que leia a idade e a altura de 10 pessoas. Calcule e informe a média das alturas das pessoas com mais de 50 anos. Para isso, use for. */
-package aula_2_exercicio_4;
-
 import java.util.Scanner;
 
 public class IdadeAltura {

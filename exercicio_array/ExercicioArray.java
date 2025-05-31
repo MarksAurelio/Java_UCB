@@ -1,5 +1,3 @@
-package exercicio_array;
-
 import java.util.Scanner;
 
 public class ExercicioArray {
