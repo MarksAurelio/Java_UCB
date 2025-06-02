@@ -1,3 +1,10 @@
+/* Você deve fazer a implementação de uma classe chamada MyMath.java, que deverá ter quatro métodos conforme a listagem a seguir:
+
+Receber um número inteiro como argumento e calcular o fatorial.
+Receber dois valores como argumento e retornar o número que for maior.
+Receber um valor inteiro como argumento e retornar se ele é um número par. (retorne true ou false)
+Receber um número inteiro e retornar se ele é um número primo matemático (desafio).
+Faça um programa principal para testar sua classe implementada com valores atribuídos a sua escolha. */
 package aula_3_exercicio_5;
 
 import aula_3_exercicio_1.Leitor;
