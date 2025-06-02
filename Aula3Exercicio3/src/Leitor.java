@@ -1,47 +1,41 @@
 import java.util.Scanner;
+@SuppressWarnings("all")
 
 public class Leitor {
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static String lerString(String msg) {
         System.out.println(msg);
-        return scanner.nextLine();
+        return lerString();
     }
 
     public static String lerString() {
-        return scanner.nextLine();
+        return new Scanner(System.in).nextLine();
     }
 
     public static int lerInt(String msg) {
         System.out.println(msg);
-        return scanner.nextInt();
+        return lerInt();
     }
 
     public static int lerInt() {
-        return scanner.nextInt();
+        return new Scanner(System.in).nextInt();
     }
 
     public static char lerCaractere(String msg) {
         System.out.println(msg);
-        return scanner.next().charAt(0);
+        return lerCaractere();
     }
 
     public static char lerCaractere() {
-        return scanner.next().charAt(0);
+        return new Scanner(System.in).next().charAt(0);
     }
 
     public static double lerDouble(String msg) {
         System.out.println(msg);
-        return scanner.nextDouble();
+        return lerDouble();
     }
 
     public static double lerDouble() {
-        return scanner.nextDouble();
-    }
-
-    public static void fecharScanner() {
-        if (scanner != null) {
-            scanner.close();
-        }
+        return new Scanner(System.in).nextDouble();
     }
 }

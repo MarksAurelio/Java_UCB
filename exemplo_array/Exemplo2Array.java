@@ -1,7 +1,9 @@
 public class Exemplo2Array {
     public static void main(String[] args) {
-        Aluno a = Visao.lerAluno();
-        System.out.printf("Nome: %s\nMatrícula: %s\nSituação: %c\n", a.nome, a.matricula, a.situacao);
+        Aluno[] alunos = Visao.criarAlunos(3);
+
+        Visao.print(alunos);
+
     }
 }
 
@@ -10,4 +12,5 @@ class Aluno {
     String nome;
     String matricula;
     char situacao;
+
 }
