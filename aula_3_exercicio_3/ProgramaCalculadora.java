@@ -1,3 +1,4 @@
+/* Você deve implementar uma calculadora. O usuário informará um valor, um operador e outro valor. Execute a operação e apresente o resultado. Faça uso do maior número de métodos que conseguir visualizar (na entrada de dados, nas operações). As operações disponíveis para esta calculadora são: adicionar, subtrair, dividir, multiplicar e expoente. Para o cálculo do expoente, pesquise no hiperlink. */
 package aula_3_exercicio_3;
 
 public class ProgramaCalculadora {

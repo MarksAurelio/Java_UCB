@@ -1,3 +1,4 @@
+/* Implemente um programa em Java que calcule o somatório de um número inteiro positivo recebido pelo usuário (efetue a validação para garantir esta premissa). Um método chamado somatório deve ser criado por você. Como parâmetro, ele deve receber um número, e o retorno deve ser a soma de todos os números anteriores até o zero. Por exemplo: se for passado 3 para o método, deve retornar a soma de 0 + 1 + 2 + 3. */
 package aula_3_exercicio_4;
 
 public class ProgramaSomatorio {
