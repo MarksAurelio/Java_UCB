@@ -1,3 +1,4 @@
+package cadastro_alunos;
 enum SituacaoAluno {
     REGULAR,
     BOLSISTA

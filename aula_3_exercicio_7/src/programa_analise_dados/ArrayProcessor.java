@@ -1,3 +1,4 @@
+package programa_analise_dados;
 public class ArrayProcessor {
 
     // Calcula a média dos valores contidos em um array de inteiros.

@@ -1,3 +1,4 @@
+package programa_analise_dados;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

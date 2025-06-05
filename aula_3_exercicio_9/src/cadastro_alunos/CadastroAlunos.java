@@ -1,3 +1,4 @@
+package cadastro_alunos;
 import java.util.InputMismatchException;
 
 public class CadastroAlunos {

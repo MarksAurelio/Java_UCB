@@ -1,3 +1,4 @@
+package programa_aluno;
 public class Aluno {
     private String nome;
     private double nota1;
