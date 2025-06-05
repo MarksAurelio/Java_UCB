@@ -2,7 +2,7 @@
 public class ProgramaAluno {
     public static Aluno solicitarDadosAluno() {
         System.out.println("--- Cadastro de Aluno ---");
-        String nome = Leitor.lerStringI("Informe o nome do aluno(a):");
+        String nome = Leitor.lerString("Informe o nome do aluno(a):");
 
         double nota1 = -1.0;
         boolean nota1Valida = false;

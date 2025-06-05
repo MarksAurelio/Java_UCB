@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Leitor {
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static String lerStringI(String msg) {
+    public static String lerString(String msg) {
         System.out.println(msg);
         return scanner.nextLine();
     }
