@@ -1,4 +1,4 @@
-package corrida;
+package corrida_app;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

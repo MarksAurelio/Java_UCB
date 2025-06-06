@@ -4,8 +4,8 @@ O piloto mais rápido.
 O piloto mais lento.
 A média dos tempos.
 DESAFIO: todos os pilotos ordenados pelo tempo. (Use o bubblesort) */
-package corrida;
-public class Corrida {
+package corrida_app;
+public class CorridaApp {
     // Solita ao usuário os dados de um piloto(nome, escuderia, tempo volta)
     public static Piloto solicitarDadosPiloto() {
         System.out.println("--- Cadastro de Piloto ---");

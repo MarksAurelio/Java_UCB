@@ -1,3 +1,13 @@
+/* O candidato possui nome, número de filiação, se a candidatura é para deputado federal, distrital ou senador. Cada candidato tem direito a uma verba de campanha, de acordo com o seu tipo de candidatura. Se o candidato almejar candidatura para deputado distrital, a verba destinada a ele é de R$ 170.000,00, caso almeje deputado federal R$ 250.000,00, e, por fim, caso almeje senador R$ 350.000,00. Outra característica de candidato é se ele já foi ou não reeleito, caso ele já tenha sido reeleito a verba de campanha será dobrada. 
+
+Sabe-se que será informado um número fixo de candidatos, pergunte ao usuário a quantidade e receba os dados do mesmo. Após o recebimento dos dados, apresente, sem a necessidade de um menu de opções, as seguintes informações:
+
+Apresente todos os candidatos informados pelo usuário.
+Apresente todos os candidatos que já foram reeleitos.
+Apresente o total gasto com os deputados que não foram reeleitos.
+Apresente o total gasto com todos os candidatos.
+Apresente todos os candidatos que se chamam Tiririca.
+Apresente também a média de custo com os candidatos. */
 package gerenciador_candidatos_app;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package corrida;
+package corrida_app;
 public class Piloto {
     private String nome;
     private String escudeira;
