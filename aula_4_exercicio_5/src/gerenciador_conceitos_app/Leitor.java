@@ -1,4 +1,4 @@
-package gerenciador_turma_app;
+package gerenciador_conceitos_app;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -22,7 +22,11 @@ public class Leitor {
             try {
                 System.out.println(msg);
                 numero = scanner.nextDouble();
-                entradaValida = true;
+                if (numero < 0 || numero > 10) {
+                    System.out.println("A nota dever estar entre 0.0 a 10.0.");
+                } else {
+                    entradaValida = true;
+                }
             } catch (InputMismatchException e) {
                 System.out.println("Entrada inválida. Digite um número.");
                 scanner.next();
@@ -32,16 +36,16 @@ public class Leitor {
         return numero;
     }
 
-    public String obterRepostaSimNao(String msg) {
+    public String obterRespostaSimNao(String msg) {
         String resposta = "";
         boolean entradaValida = false;
         while (!entradaValida) {
             System.out.println(msg + " (sim/não)");
             resposta = scanner.nextLine().trim().toLowerCase();
-            if (resposta.equals("sim") || resposta.equals("não") || resposta.equals("nao")) {
+            if (resposta.equals("sim") || (resposta.equals("não")) || (resposta.equals("nao"))) {
                 entradaValida = true;
             } else {
-                System.out.println("Resposta inválida. Digite (sim/não):");
+                System.out.println("Entrada inválida. Digite (sim/não).");
             }
         }
         return resposta;
