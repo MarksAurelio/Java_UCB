@@ -1,3 +1,4 @@
+/* Você acabou de conhecer o ArrayList, uma coleção de objetos que é muito mais prática de usar frente os arrays tradicionais. Armazene os dados de uma turma em uma coleção de Alunos. Um aluno tem nome, duas notas e uma média, que é calculada a partir dos valores das notas. Após receber os dados de vários alunos, enquanto o usuário desejar, apresente a média da turma e a quantidade de alunos informados */
 package gerenciador_turma_app;
 
 import java.util.ArrayList;
