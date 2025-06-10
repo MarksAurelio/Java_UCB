@@ -3,7 +3,7 @@ package programa_figuras;
 public abstract class FiguraGeometrica {
     protected double base;
     protected double altura;
-
+    
     public FiguraGeometrica(double base, double altura) {
         if (base <= 0 || altura <= 0) {
             throw new IllegalArgumentException("Base e altura devem ser valores positivos");

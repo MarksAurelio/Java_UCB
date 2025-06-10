@@ -1,3 +1,4 @@
+/* Um matemático trabalha com dois tipos de figuras: os triângulos retângulos e os retângulos. Crie um programa Java (classes) que represente a modelagem para abstrair este problema. Ambos têm dois dados comuns: Base e Altura. Cada uma tem um cálculo de forma distinta de área. O triângulo retângulo é base X altura / 2, já do retângulo é apenas base X altura. Um cálculo diferente somente para o triângulo retângulo deve ser realizado, que é a hipotenusa. Crie um programa de teste, que instancie objetos, atribua valores e execute para apresentação. */
 package programa_figuras;
 
 public class ProgramaFiguras {
