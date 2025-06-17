@@ -1,4 +1,4 @@
-package aula_3_exercicio_3_exemplo.src.calculadora;
+package aula_3_exercicio_3_desafio.src.calculadora;
 import javax.swing.JOptionPane;
 
 public class Impressora {

@@ -1,4 +1,4 @@
-package aula_3_exercicio_3_exemplo.src.calculadora;
+package aula_3_exercicio_3_desafio.src.calculadora;
 public class Matematica {
     public static double expoente(double base, double expoenteFlutuante) {
         int expoente = (int) expoenteFlutuante; // Casting

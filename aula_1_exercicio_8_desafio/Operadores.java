@@ -1,4 +1,4 @@
-package aula_1_exercicio_8_exemplo;
+package aula_1_exercicio_8_desafio;
 
 public class Operadores {
     int num_instancia;

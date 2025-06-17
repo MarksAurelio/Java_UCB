@@ -1,4 +1,4 @@
-package gerenciador_candidatos_app;
+package aula_4_exercicio_1_desafio.src.gerenciador_candidatos_app;
 
 public class Candidato {
     private String nome;

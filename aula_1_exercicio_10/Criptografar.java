@@ -1,3 +1,4 @@
+package aula_1_exercicio_10;
 /* O programa Java apresentado a seguir codifica uma mensagem de texto, sem informar qual foi a chave para o processo de criptografia: */
 import java.util.Scanner;
 

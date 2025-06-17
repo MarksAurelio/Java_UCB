@@ -8,7 +8,7 @@ Apresente o total gasto com os deputados que não foram reeleitos.
 Apresente o total gasto com todos os candidatos.
 Apresente todos os candidatos que se chamam Tiririca.
 Apresente também a média de custo com os candidatos. */
-package gerenciador_candidatos_app;
+package aula_4_exercicio_1_desafio.src.gerenciador_candidatos_app;
 
 import java.util.ArrayList;
 import java.util.List;

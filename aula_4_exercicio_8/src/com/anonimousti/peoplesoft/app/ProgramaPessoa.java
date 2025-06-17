@@ -21,12 +21,12 @@ Receba do usuário os dados de uma pessoa e apresente todas as informações da 
 Utilizando a mesma modelagem do exercício anterior, receba os dados de várias pessoas e armazene em um ArrayList. Entretanto, não é permitido armazenar duas pessoas com o mesmo código (sobrescreva o equals). Após receber os dados, enquanto o usuário desejar, apresente todas as pessoas informadas usando o toString. Além da implementação do equals e toString, realize o empacotamento e distribua suas classes sabendo que você trabalha na empresa anonimousti e ela possui um site: www.anonimousti.com.br. O nome do sistema é peoplesoft. */
 package com.anonimousti.peoplesoft.app;
 
-import com.anonimousti.peoplesoft.model.Pessoa;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+
+import com.anonimousti.peoplesoft.model.Pessoa;
 
 public class ProgramaPessoa {
     public static void main(String[] args) {

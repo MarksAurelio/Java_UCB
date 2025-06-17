@@ -1,4 +1,4 @@
-package aula_1_exercicio_3_exemplo;
+package aula_1_exercicio_3_desafio;
 
 public class ExemploEntidade {
     public static void main(String args[]) {

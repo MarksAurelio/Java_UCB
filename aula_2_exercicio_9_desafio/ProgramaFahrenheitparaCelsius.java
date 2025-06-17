@@ -1,4 +1,4 @@
-package aula_2_exercicio_9_exemplo;
+package aula_2_exercicio_9_desafio;
 
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+package aula_1_exercicio_10;
 import java.util.Scanner;
 
 public class Descriptografar {
