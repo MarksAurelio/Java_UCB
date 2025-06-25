@@ -9,8 +9,7 @@ public class Franquia {
     private String codigoFranquia;
     private String nomeEmpresa;
 
-    public Franquia(double quantidadeGB, int diaExpiracao, double precoFranquia, String codigoFranquia,
-            String nomeEmpresa) {
+    public Franquia(double quantidadeGB, int diaExpiracao, double precoFranquia, String codigoFranquia, String nomeEmpresa) {
         if (quantidadeGB <= 0) {
             throw new IllegalArgumentException("Quantidade GB deve ser maior que zero.");
         }
@@ -24,7 +23,7 @@ public class Franquia {
             throw new IllegalArgumentException("Código da Franquia não deve ser vazio.");
         }
         if (nomeEmpresa == null || nomeEmpresa.trim().isEmpty() || !isValidEmpresa(nomeEmpresa)) {
-            throw new IllegalArgumentException("Nome da Empresa não pode ser vazio");
+            throw new IllegalArgumentException("Nome da Empresa inválido.");
         }
         this.quantidadeGB = quantidadeGB;
         this.diaExpiracao = diaExpiracao;

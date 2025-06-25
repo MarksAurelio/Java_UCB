@@ -37,6 +37,7 @@ public class ControleFranquiaAnatel {
                 inputInalido = true;
             } catch (InputMismatchException e) {
                 System.out.println("Entrada inválida. Tente novamente.");
+                e.printStackTrace();
                 scanner.nextLine();
             } catch (IllegalArgumentException e) {
                 System.out.println("Erro: " + e.getMessage());
@@ -76,6 +77,7 @@ public class ControleFranquiaAnatel {
                     }
                 } catch (InputMismatchException e) {
                     System.out.println("Entrada inválida. Tente novamente.");
+                    e.printStackTrace();
                     scanner.nextLine();
                 } catch (IllegalArgumentException e) {
                     System.out.println("Erro: " + e.getMessage());
